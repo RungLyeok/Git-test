@@ -4,15 +4,4 @@ metadata:
   name: myingress
   labels:
     name: myingress
-spec:
-  rules:
-  - host: <Host>
-    http:
-      paths:
-      - pathType: Prefix
-        path: "/"
-        backend:
-          service:
-            name: <Service>
-            port: 
-              number: <Port>
+
