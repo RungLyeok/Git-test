@@ -6,5 +6,7 @@ spec:
   containers:
     - name: mypod
       image: nginx
+      ports:
+        - containerPort: 8080
 
 
